@@ -1,0 +1,148 @@
+@import url('https: //fonts.googleapis.com/css2?family=Poppins: wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+
+.contact
+{
+	position: relative;
+	min-height: 100vh;
+	padding: 500px 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url(../images/2222.jpg);
+	background-size: cover;
+}
+
+.contact .content 
+{
+	max-width: 1000px;
+	text-align: center;
+}
+
+.contact .content h3
+{
+	font-size: 45px;
+	font-weight: 500;
+	color: 	#00BFFF;
+}
+
+.contact .content p
+{
+	font-weight: 300;
+	font-size: 20px;
+	color: 	#778899;
+}
+
+.container
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.container .contactInfo
+{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.container .contactInfo .box 
+{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+
+.container .contactInfo .box .icon 
+{
+	min-width: 60px;
+	height: 60px;
+	background: #87CEFA;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+}
+
+.container .contactInfo .box .text 
+{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #2F4F4F;
+	flex-direction: column;
+	font-weight: 300;
+}
+
+.container .contactInfo .box .text h3 
+{
+	font-weight: 500;
+	color: #00bcd4;
+}
+
+.contactForm 
+{
+	width: 40%;
+	padding: 40px;
+	color: #87CEFA;
+}
+
+.contactForm h2
+{
+	font-size: 30px;
+	color: black;
+	font-weight: 500;
+}
+
+.contactForm .inputBox input, 
+.contactForm .inputBox textarea
+{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333 ;
+	outline: none;
+	resize: none;
+}
+
+.contactForm .inputBox span
+{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+{
+	color: #e91e63;
+	font-size: 12px;
+	transform: translate(-20px);
+}
+
+.contactForm .inputBox input[type="submit"]
+{
+	width: 100px;
+	background: #00bcd4;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+}

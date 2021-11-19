@@ -1,0 +1,165 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 100%;
+	margin: 0px auto; 
+	display: block;
+}
+.header {
+	background: #046634;
+	padding: 10px 0;
+	position: relative
+}
+/*.header{
+	width: 100%;
+	margin: 0px auto;
+	display: block;
+}*/
+
+.header .top{
+	display: flex;
+	height: 40px;
+}
+
+.top .logo{
+	background: white;
+	width: 40%;
+}
+
+.top .searching{
+	background: white;
+	width: 40%;
+}
+
+.top .log-in{
+	color: white ;
+	width: 20%;
+}
+
+.log-in ul{
+	display: flex;
+}
+
+.log-in ul li{
+	padding: 5px 10px 0px 10px;
+}
+
+
+.header .slide-show{
+	background: #d9e1f2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+}
+
+.header .menu{
+	height: 40px;
+	background-color: orangered;
+	color: white;
+
+}
+
+.menu ul{
+	display: flex;
+}
+.menu ul li {
+	height: 40px;
+	padding: 0px 80px 0px 80px; 
+	border-right: 0.5px solid #fcc325 ;
+	display: flex;
+}
+
+/*register*/
+body {font-family: Arial;}
+* {box-sizing: border-box}
+
+.container1 input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #f2f2f2;
+}
+
+ input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.container1 button {
+  background-color: #00b0f0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.container1 .cancelbtn {
+  padding: 14px 20px;
+  background-color: red;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+               
+.container1 {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+/*register*/
+
+.infor {
+	width: 100%;
+}
+
+.detail{
+	width: 100%;
+	display: flex;
+}
+
+h4 {
+	margin-left:3px ;
+}
+
+.detail .image .update-infor{
+	display: flex;
+}
+
+.detail .image {
+	width: 412px;
+}
+
+.detail .update-infor{
+	margin-left: 50px;
+	width: 402px;
+}
+
+footer .row {
+        padding: 80px 0px !important; 
+    }

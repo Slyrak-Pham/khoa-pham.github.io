@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    font-family: “Lucida Console”, Monaco, monospace
+    font-size: 15px;
+}
+body {
+    background-image: url(../images/road.jpg);
+    background-size: 1950px;
+}
+.to {
+   /*margin: 0 auto;*/
+   margin-left: 770px;
+   margin-top: 200px;
+}
+ 
+.form {
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 0px grey;
+    background-color: white;
+}
+
+.form1{
+    margin-top: 160px;
+    height: 350px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 0px grey;
+    background-color: white;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+i.fab.fa-app-store-ios {
+    display: block;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+ 
+label {
+    margin-left: -126px;
+    display: block;
+    font-weight: lighter;
+ 
+}
+input{
+    display: block;
+    border-bottom: 2px solid #00BCD4;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    outline-style: none;
+}
+input[type="text"],[type="number"],[type="password"] {
+    padding: 12px;
+    width: 85%;
+    margin-left: -30px;
+}
+
+input#submit {
+    padding: 9px;
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    bottom: 15px;
+    cursor: pointer;
+    background: navajowhite;
+}
+
+input#submit:hover{
+    background: skyblue; 
+}
